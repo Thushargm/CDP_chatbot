@@ -36,6 +36,7 @@ How to Run
 Clone the repository.
 Install dependencies: pip install -r requirements.txt
 Configure the environment variables in a .env file.
+Open your terminal and navigate to the Chatbot folder using the cd command
 Run migrations: python manage.py migrate
 Start the application: python manage.py runserver
 Access the chatbot at http://127.0.0.1:8000/.
