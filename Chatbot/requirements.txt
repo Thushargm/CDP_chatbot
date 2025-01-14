@@ -1,0 +1,8 @@
+spacy
+gunicorn
+psycopg2-binary
+Django==4.2.5  # Or your preferred Django version
+python-dotenv==1.0.0  # For environment variable management
+openai==0.28.0  # OpenAI Python client
+django-extensions==3.2.5  # Optional, for development extensions
+django-sslserver==0.23  # Optional, for testing with HTTPS in development
