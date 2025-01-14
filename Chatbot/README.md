@@ -9,9 +9,16 @@ This is a Django-based chatbot designed to answer "how-to" questions about Segme
 
 ## Requirements
 - Python 3.8+
-- Django 4.2
+- Django 4.2.5
 - Requests
 - BeautifulSoup
+- spacy
+- gunicorn
+- psycopg2-binary
+- python-dotenv==1.0.0  # For environment variable management
+- openai==0.28.0  # OpenAI Python client
+- django-extensions==3.2.5  # Optional, for development extensions
+- django-sslserver==0.23  # Optional, for testing with HTTPS in development
 
 ## How to Run
 1. Install dependencies: `pip install -r requirements.txt`
